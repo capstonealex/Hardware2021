@@ -1,4 +1,4 @@
-gr=9.81; %Gravitional force
+gr=9.81; %Gravitional constant
 %Masses
 [me1, mp1, me2, mp2, me3, mp3, me4, mp4, me5, mp5, me6, mp6, me7, mp7, me8, mp8, me9, mp9] = Masses;
 %Lengths
