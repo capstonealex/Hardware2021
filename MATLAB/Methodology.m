@@ -43,4 +43,8 @@ rAO=MM2M*middle;
 %Calculated forces
 [F3, M3] = formomcalc(F03, FR3, gr, R01, R12, R23, R34, R45, R56, R67, R78, R10, R21, R32, R43, R54, R65, R76, R87, me1, mp1, me2, mp2, me3, mp3, me4, mp4, me5, mp5, me6, mp6, me7, mp7, me8, mp8, me9, mp9, rAO, rAB, rBC, rAGe1, rAGp1, rAGe2, rAGp2, rBA, rBGe2, rBGp2, rBGe3, rBGp3, rCB, rCD, rCGe3, rCGe4, rCGp3, rDC, rDE, rDcru, rDGe4, rDGp5, rDGe5, rEF, rED, rEcru, rEGe6, rEGp5, rEGe5, rFE, rFG, rFGe6, rFGe7, rFGp7, rGH, rGF, rGGe7, rGGp7, rGGe8, rGGp8, rHfloor, rHG, rHGe8, rHGp8, rHGe9, rHGp9);
 
+toplabels=[0 "Case A" "Case B" "Case C"];
+At=[F1 F2(:,2) F3(:,2)];
+Forces=[toplabels;At]
+Moment=[M1 M2(:,2) M3(:,2)]
 
