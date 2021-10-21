@@ -1,3 +1,4 @@
+%Code authored by Musa Saeed
 clear all
 clc
 gr=9.81; %Gravitional force
@@ -48,5 +49,5 @@ rAO=MM2M*middle;
 toplabels=[0 "Case A" "Case B" "Case C"];
 At=[F1 F2(:,2) F3(:,2)];
 Forces=[toplabels;At]
-Moment=[M1 M2(:,2) M3(:,2)]
-
+Momentt=[M1 M2(:,2) M3(:,2)];
+Moment=[toplabels;Momentt]
