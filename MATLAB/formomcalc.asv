@@ -23,7 +23,7 @@ MF = mom6(R21, R10, R32, R43, R54, R56, rFE, FE4, rFG, FG6, rFGe6, me6, rFGe7, m
 MG = mom7(R67, R65, R54, R43, R32, R21, R10, rGH, FH7, rGF, FF5, rGGe7, me7, rGGp7, mp7, rGGe8, me8, rGGp8, mp8, gr);
 MH = mom8(R87, R76, R65, R54, R43, R32, R21, R10, rHfloor, FR, rHG, FG6, rHGe8, me8, rHGp8, me9, rHGe9, rHGp9, mp8, mp9, gr);
 
-mlabels=["moment Ax";"moment Ay";"moment Az";"moment Bx";"moment By";"moment Bz";"moment Cx";"moment Cy";"moment Cz";"moment Dx";"moment Dy";"moment Dz";"moment Ex";"moment Ey";"moment Ez";"moment Fx";"moment Fy";"moment Fz";"moment Gxz";"moment Gy";"moment Gz";"moment Hx";"moment Hy";"moment Hz"];
+mlabels=["moment Ax";"moment Ay";0;"moment B";0;0;"moment C";0;0;"moment D";0;0;"moment E";0;0;"moment F";0;0;"moment G";0;0;"moment H";0;0;];
 Mt=[MA; MB; MC; MD; ME; MF; MG; MH];
 M=[mlabels, Mt];
 end
